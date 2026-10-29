@@ -10,7 +10,8 @@ public class Product {
 
     //2. create constructor - uses the same name as the class - no return type
     // initializes an object's fields when you create it
-    public Product(long productNumber, String product, double price){
+    public Product(long productNumber, String product , double price) {
+
         //Use the "this" keyword       Explanation:
         /*  this.name - the name stored in the employee object
                name   - the name passed into the constructor
